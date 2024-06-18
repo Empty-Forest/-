@@ -1,0 +1,16 @@
+E:\VScode\LibraryManagement\BookManagement\BookManagement\bin\Debug\BookManagement.exe.config
+E:\VScode\LibraryManagement\BookManagement\BookManagement\bin\Debug\BookManagement.exe
+E:\VScode\LibraryManagement\BookManagement\BookManagement\bin\Debug\BookManagement.pdb
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.csproj.AssemblyReference.cache
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.Login.resources
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.Splash.resources
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.Properties.Resources.resources
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.csproj.GenerateResource.cache
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.csproj.CoreCompileInputs.cache
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.exe
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.pdb
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.Book.resources
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.List.resources
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.User.resources
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.Shopping.resources
+E:\VScode\LibraryManagement\BookManagement\BookManagement\obj\Debug\BookManagement.AdminLogin.resources
