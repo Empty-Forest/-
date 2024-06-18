@@ -5,6 +5,8 @@ VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookManagement", "BookManagement\BookManagement.csproj", "{4239B4F0-8FF2-46A3-BB40-B60985ABE1BD}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "BookManageSystem", "BookManageSystem\BookManageSystem.vdproj", "{988CC976-FC77-4C5A-BC43-E27DDA8753A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{4239B4F0-8FF2-46A3-BB40-B60985ABE1BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4239B4F0-8FF2-46A3-BB40-B60985ABE1BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4239B4F0-8FF2-46A3-BB40-B60985ABE1BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{988CC976-FC77-4C5A-BC43-E27DDA8753A9}.Debug|Any CPU.ActiveCfg = Debug
+		{988CC976-FC77-4C5A-BC43-E27DDA8753A9}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
