@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.IO;
 
 namespace BookManagement
 {
@@ -17,7 +18,10 @@ namespace BookManagement
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\VScode\LibraryManagement\BookManagement\Data\BookStore.mdf;Integrated Security=True;Connect Timeout=30;Encrypt=False");
+        private static string appPath = AppDomain.CurrentDomain.BaseDirectory;//当前执行文件的目录
+        private static string fileName = "BookStore.mdf";//目录下的数据库文件
+        private static string filePath = Path.Combine(appPath, fileName);//数据库路径
+        SqlConnection con = new SqlConnection($@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={filePath};Integrated Security=True;Connect Timeout=30;Encrypt=False");
 
         private void label5_Click(object sender, EventArgs e)//退出
         {
