@@ -3,6 +3,9 @@
 #
 与视频相比增加了购物车的删除且删除后书籍能够返回库存
 #
-数据库在Data中，数据库的连接记得更换
-#
-等之后学的更深了回来继续修改，看看能不能直接连接数据库以及导出成exe程序
+直接连接数据库，通过以下代码：
+private static string appPath = AppDomain.CurrentDomain.BaseDirectory;//当前执行文件的目录
+private static string fileName = "BookStore.mdf";//目录下的数据库文件
+private static string filePath = Path.Combine(appPath, fileName);//数据库路径
+SqlConnection con = new SqlConnection($@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={filePath};Integrated Security=True;Connect Timeout=30;Encrypt=False");
+并且打包了应用程序进行安装
